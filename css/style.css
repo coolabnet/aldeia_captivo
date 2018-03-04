@@ -1,0 +1,45 @@
+@page { margin: .25cm }
+p { margin-bottom: 0.25cm; line-height: 120% }
+a:link { so-language: zxx }
+
+body {font-family: sans-serif;background-color:#eee;}
+button {
+	background-color: #68efad;
+	border-radius: 2px;
+	border: 0;
+	padding: 10px;
+	margin: 0 5px 10px;}
+button:hover {
+	background-color: #68efda;
+}
+button a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+    font-size: 18pt
+}
+a button {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+    font-size: 18pt
+}
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card {
+  background: #eee;
+  border-radius: 2px;
+  display: inline-block;
+  float:CENTER;
+  width: 80%;
+  margin: 1rem;
+  position: relative;
+  padding: 10px;
+
+}
