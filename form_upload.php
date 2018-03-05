@@ -1,21 +1,15 @@
 <html><head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>Aldeia Velha</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<script src="js/popper.min.js"></script>
-<script src="js/jquery-3.2.1.slim.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/estilo.css">
+  <?php include("cabeca.php"); ?>
+</head>
 <body>
 
-    <h3>Rede Comunitária de Aldeia Velha</h3>
+    <a href="index.php"> <h3>Rede Comunitária de Aldeia Velha</h3> </a>
 
 <div class="container-fluid p-10 principal">
 		<form action="form_upload.php" method="post" enctype="multipart/form-data">
 	<label for="nome">Nome para o arquivo</label>
 	<input type='text' name="nome"></input><br/>
-	<select name="tipo">
+	<select class='form-control' name="tipo">
 		<option value="">selecione um tipo</option>
 		<option value="foto">fotos</option>
 		<option value="texto">texto</option>
@@ -96,8 +90,5 @@
 			
 		</div>
 
-<footer>
-  <div class="fixed-bottom mb-1">Coolab <span class="copy-left">©</span></div>
-</footer>
 </body>
 </html>

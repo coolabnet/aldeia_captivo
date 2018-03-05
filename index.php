@@ -1,31 +1,25 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html>
 <html><head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>Aldeia Velha</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<script src="js/popper.min.js"></script>
-<script src="js/jquery-3.2.1.slim.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/estilo.css">
+  <?php include("cabeca.php"); ?>
+</head>
 <body>
 
-    <h3>Rede Comunitária de Aldeia Velha</h3>
+    <h3>Rede Comunitária de <?php echo TITULO;?></h3>
 
 <div class="container-fluid p-10 principal">
-<p>Seja bem vindo ao provedor comunitário de Aldeia Velha</p><p>
+<p><?php echo SAUDACAO;?></p><p>
   <a data-toggle="collapse" href="#collapseExample" role="button">
     Saiba mais
   </a>
 </p>
 <div class="collapse" id="collapseExample">
   <div class="card-body card-body">
-    A Associação de Moradores de Aldeia velha em parceria com a Coolab está implementando um provedor comunitário. Em breve, mais informações.
+    <?php echo SAIBAMAIS;?> 
   </div>
 </div>
 </div>
 
-  <div class="text-center"><H4>Aldeioteca</h4></div>
+  <div class="text-center"><H4>Midiateca</h4></div>
     <p>Repositório de arquivos para livre acesso</p>
   <div class="row">
       <div class="col-sm-3"><p>Assista e baixe vídeos</p><a href="fotos"><button class="btn">Fotos</button></a></div>
