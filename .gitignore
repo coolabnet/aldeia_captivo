@@ -1,5 +1,5 @@
-fotos
-musicas
-videos
-textos
+fotos/*
+musicas/*
+videos/*
+textos/*
 hd
