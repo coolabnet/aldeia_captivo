@@ -1,5 +1,13 @@
-fotos/*
-musicas/*
-videos/*
-textos/*
 hd
+*.gif
+*.jpeg
+*.jpg
+*.png
+*.pdf
+*.txt
+*.doc
+*.docx
+*.odt
+*.mp4
+*.mp3
+conf.php
