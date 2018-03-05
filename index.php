@@ -4,7 +4,17 @@
 </head>
 <body>
 <div class="container-fluid p-10 principal">
-<p><?php echo SAUDACAO;?></p><p>
+<p><?php echo SAUDACAO;?></p>
+ <form method="GET" action="$authaction" class="c1">
+          <input type="hidden" name="tok" value="$tok">
+          <input type="hidden" name="redir" value="$redir">
+          <fieldset class="acentro c2">
+            <iframe src="http://$gatewayname/cgi-bin/vale" width="100%" frameborder=0 scrolling="no" id="iFrameResizer0"></iframe>
+            <input type="text" name="voucher" id="voucher" autocomplete="off" placeholder="insert voucher" value="" size="12" class="dest" />
+            <input type="submit" value="OK" /><br/>
+          </fieldset>
+        </form>
+<p> 
   <a data-toggle="collapse" href="#collapseExample" role="button">
     Saiba mais
   </a>
