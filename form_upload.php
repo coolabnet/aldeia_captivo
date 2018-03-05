@@ -1,31 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html><head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<title></title>
-	<meta name="generator" content="LibreOffice 5.1.4.2 (Linux)">
-	<meta name="created" content="2016-10-07T18:18:44.314838887">
-	<meta name="changed" content="2016-10-07T19:13:53.735143150">
-	<link rel="stylesheet" type="text/css" href="css/style.css"></style>
-</head>
-<body dir="ltr" lang="pt-BR">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Aldeia Velha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="js/popper.min.js"></script>
+<script src="js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/estilo.css">
+<body>
 
-	<div style="background-image: URL($imagesdir//pontilhao2.jpg); background-size: cover; background-position: center; height: 33%; width: 100%;">
-	</div>
+    <h3>Rede Comunitária de Aldeia Velha</h3>
 
-	<div style="background-color:#fff;padding:15px 45px;margin:-50px auto 0;width:66%;text-align:center;">
-
-		<h3 style="margin-bottom: 0cm; font-size:20pt; text-align:center;">Rede Comunitária Souzas Livre<br> </h3>
-
-        <h2 style= "margin-bottom: 0cm; font-size:32pt; text-align:center;">Biblioteca</h2>
-
-		<p><br></p>
-
-
-		<p><br></p>
-
-
-
-		<div class="card card-1" >
+<div class="container-fluid p-10 principal">
 		<form action="form_upload.php" method="post" enctype="multipart/form-data">
 	<label for="nome">Nome para o arquivo</label>
 	<input type='text' name="nome"></input><br/>
@@ -60,7 +46,7 @@
 					$dir = $dir."/fotos/";
 					$tipo_sup=true;
 				}else{
-					echo "Formato invalido";
+					echo "Formato inválido";
 				}
 			break;
 			case "texto":
@@ -69,7 +55,7 @@
 					$tipo_sup=true;
 				}
 				else{
-					echo "Formato invalido";
+					echo "Formato inválido";
 				}
 			break;
 			case "video":
@@ -77,7 +63,7 @@
 					$dir = $dir."/videos/";
 					$tipo_sup=true;
 				}else{
-					echo "Formato invalido";	
+					echo "Formato inválido";	
 				}
 			break;
 			case "audio":
@@ -89,7 +75,7 @@
 				}
 				else
 				{
-					echo "Formato invalido";
+					echo "Formato inválido";
 				}
 			}
 				break;
@@ -101,7 +87,7 @@
 		echo $dir.$novo_nome.'</br>';
 		echo getcwd();
 		if($tipo_sup==true && move_uploaded_file($_FILES['arquivo']['tmp_name'], $dir.$novo_nome))
-			echo "SUuuucessoooo"; 		 
+			echo "Suuuucessoooo"; 		 
 		else
 			echo "falha no envio";
 	}
@@ -110,17 +96,8 @@
 			
 		</div>
 
-
-
-
-
-
-
-		<p><br></p>
-
-
-	</div>
-
-<br>
-
-</body></html>
+<footer>
+  <div class="fixed-bottom mb-1">Coolab <span class="copy-left">©</span></div>
+</footer>
+</body>
+</html>
