@@ -2,9 +2,6 @@
   <?php include("cabeca.php"); ?>
 </head>
 <body>
-
-    <a href="index.php"> <h3>Rede Comunitária de Aldeia Velha</h3> </a>
-
 <div class="container-fluid p-10 principal">
 		<form action="form_upload.php" method="post" enctype="multipart/form-data">
 	<label for="nome">Nome para o arquivo</label>
