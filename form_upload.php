@@ -81,7 +81,7 @@
 		echo $dir.$novo_nome.'</br>';
 		echo getcwd();
 		if($tipo_sup==true && move_uploaded_file($_FILES['arquivo']['tmp_name'], $dir.$novo_nome))
-			echo "<div class='bg-success>Suuuucessoooo</div>"; 		 
+			echo "Suuuucessoooo"; 		 
 		else
 			echo "<div class='bg-danger'>Falha no envio</div>";
 	}

@@ -3,9 +3,6 @@
   <?php include("cabeca.php"); ?>
 </head>
 <body>
-
-    <h3>Rede Comunitária de <?php echo TITULO;?></h3>
-
 <div class="container-fluid p-10 principal">
 <p><?php echo SAUDACAO;?></p><p>
   <a data-toggle="collapse" href="#collapseExample" role="button">
@@ -22,7 +19,7 @@
   <div class="text-center"><H4>Midiateca</h4></div>
     <p>Repositório de arquivos para livre acesso</p>
   <div class="row">
-      <div class="col-sm-3"><p>Assista e baixe vídeos</p><a href="fotos"><button class="btn">Fotos</button></a></div>
+      <div class="col-sm-3"><p>Imagens</p><a href="fotos"><button class="btn">Fotos</button></a></div>
       <div class="col-sm-3"><p>Ouça e baixe músicas</p><a href="musicas"><button class="btn">Música</button></a></div>
       <div class="col-sm-3"><p>Confira nossa biblioteca</p><a href="textos"><button class="btn">Textos</button></a></div>
       <div class="col-sm-3"><p>Que tal um cineminha?</p><a href="videos"><button class="btn">Vídeos</button></a></div>
