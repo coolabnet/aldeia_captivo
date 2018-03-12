@@ -18,4 +18,4 @@ Para permitir a listagem dos arquivos do servidor, é necessário acrescentar es
         }
 
 -----
-Caso não use a home page como portal cativo, apague o formulário existente em index.php - ou seja, tudo entre <form> e </form> inclusive.
+Caso não use a home page como portal cativo, apague o formulário existente em index.php - ou seja, tudo entre <pre> <form> e </form> </pre>inclusive.
