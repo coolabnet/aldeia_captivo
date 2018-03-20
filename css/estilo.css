@@ -5,10 +5,6 @@ body {
 	 height: 100vh;
 }
 
-.principal {
-	background-color: #efefef;
-}
-
 .btn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -74,3 +70,8 @@ transform: scaleX(-1);
 filter: FlipH;
 -ms-filter: "FlipH";
 }
+
+form#form_envio{text-align: left;margin-top: 35px; padding: 10px; border: 1px solid #c3c3c3; background-color: #efefef;}
+form#form_envio select#slct_opcao{width: 150px}
+form#form_envio input#ipt_nome{width: 180px;}
+form#form_envio input#btnEnviar{float: right;}

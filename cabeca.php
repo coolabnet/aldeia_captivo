@@ -6,5 +6,6 @@
 <script src="js/jquery-3.2.1.slim.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/estilo.css">
     <a href="index.php"> <h3>Rede Comunitária de <?php echo TITULO;?></h3> </a>
