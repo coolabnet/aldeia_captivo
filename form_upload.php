@@ -1,5 +1,8 @@
 <html><head>
-  <?php include("cabeca.php"); ?>
+  <?php include("cabeca.php"); 
+  	 	error_reporting(E_ALL);
+	ini_set('display_errors', '1');
+  ?>
 </head>
 <body>
 <div class="container-fluid principal">
